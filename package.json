@@ -1,0 +1,20 @@
+{
+  "name": "c2scrapper",
+  "version": "1.0.2",
+  "main": "sw.js",
+  "author": "Torres Kevin <kevinstephantorres@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node config/esbuild.js"
+  },
+  "devDependencies": {
+    "dayjs": "^1.11.4",
+    "dexie": "^3.2.2",
+    "esbuild": "^0.14.54",
+    "json-server": "^0.17.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
